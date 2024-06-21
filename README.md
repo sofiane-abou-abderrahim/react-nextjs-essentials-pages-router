@@ -43,3 +43,18 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 1. run `npx create-next-app@latest`
 2. create a `README.md` file
+
+## 1. Adding First Pages
+
+1. delete the following folder & files
+   - `pages\api` folder
+   - `styles\Home.module.css` file
+   - `pages\index.js` file
+   - `pages\_document.js` file
+2. create 2 new files
+   - `pages\index.js`, which will be your root page, so for `<your-domain>/`
+   - `pages\news.js`, for `<your-domain>/news`
+3. in those files, create React function components
+   - in `pages\index.js`, create a `HomePage` function component
+   - in `pages\news.js`, create a `NewsPage` function component
+4. in your terminal, run `npm run dev` to start the development server
