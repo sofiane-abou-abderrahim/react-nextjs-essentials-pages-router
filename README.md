@@ -58,3 +58,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
    - in `pages\index.js`, create a `HomePage` function component
    - in `pages\news.js`, create a `NewsPage` function component
 4. in your terminal, run `npm run dev` to start the development server
+
+## 2. Adding Nested Paths & Pages (Nested Routes)
+
+There is an alternative to adding pages like `pages\news.js`, which is mandatory if you want to have a nested path
+
+1. under the `pages` folder, add a `news` folder & in there add an `index.js` file, which would be the root page of the `news` path
+2. next to `pages\news\index.js`, add a file called for example `something-important.js`, which would be a nested path
+3. or alternitavely, created a `something-important` folder & in there another `index.js` file
