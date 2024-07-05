@@ -66,3 +66,8 @@ There is an alternative to adding pages like `pages\news.js`, which is mandatory
 1. under the `pages` folder, add a `news` folder & in there add an `index.js` file, which would be the root page of the `news` path
 2. next to `pages\news\index.js`, add a file called for example `something-important.js`, which would be a nested path
 3. or alternitavely, created a `something-important` folder & in there another `index.js` file
+
+## 3. Creating Dynamic Pages (with Parameters)
+
+1. implement dynamic paths by changing the name of the file `pages\news\something-important.js` by `pages\news\[newsId]` for example
+2. go to `http://localhost:3000/news/` in your browser and add anything after it, you'll get a dynamic page
